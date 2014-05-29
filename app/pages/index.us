@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="Basic Esri Feature Leaflet Map" />
+  <meta charset="utf-8">
+  <title>Basic Esri Feature Leaflet Map</title>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body>
+  <div id='divMap'></div>
+	<script src='js/app.js'></script>
+</body>
+</html>
