@@ -9,8 +9,28 @@
   <link rel="stylesheet" href="css/app.css" media="all" />
 </head>
 <body>
-  <div class="container-fluid fill"> 
-    <div id='divMap'></div>
+<div class="container-fluid">
+    <div id='divHeader' class="row">
+      <div id='divLogo' class='col-md-2'><img src='img/iepa-logo.png' alt='Illinois EPA Logo'></div>
+      <div id='divTitle' class='col-md-3'>
+      <h3>Permit Review Dashboard</h3>
+      </div>
+    </div>
+    <div class="row full-height">
+      <div id='divLegend' class="col-md-3 full-height">
+        <div class='row'>
+          <div id='divChart' class='col-md-12'>
+            <canvas class='pieChart' id='stateChart'></canvas>
+          </div>
+        </div>
+        <div class='row'>
+          <div id='divFeatureInfo' class='col-md-12'>
+            This Displays information about the selected feature.
+          </div>
+        </div>
+      </div>
+      <div id='divMap' class="col-md-9 full-height"></div>
+    </div>
   </div>
   <script src='js/app.js'></script>
 </body>
