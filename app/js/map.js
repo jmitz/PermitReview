@@ -30,7 +30,7 @@ function configureCountyFeature(feature, layer) {
       layer.bindPopup('<h3>'+feature.properties.NAME_LC+'</h3>');
       layer.on('mouseover mousemove', function(e){
         var hover_bubble = new L.Rrose({
-          offset: new L.Point(0,0),
+          offset: new L.Point(0,-10),
           closeButton: false,
           autoPan: false}
           ).setContent('<p>'+feature.properties.NAME_LC+'<br>'+feature.properties.TotalBOA_BOW + ' Permits</p>')

@@ -1,9 +1,18 @@
-html, body,  #divMap {
+html, body{
    width : 100%;
    height : 100%;
-   background-color: pink;
    margin: 0 0 0 0;
 }
+
+#divMap{
+  background-color: pink;
+  width : 100%;
+  height : 100%;
+  min-height : 600px;
+  margin: 0 0 0 0;
+  display: block;
+}
+
 
 path:hover {
   fill-opacity: .5;

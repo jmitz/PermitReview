@@ -14,6 +14,8 @@ module.exports = function(lineman) {
     //
      js: {
        vendor: [
+         "vendor/js/jquery.js",
+         "vendor/js/bootstrap.js",
          "vendor/js/leaflet-src.js",
          "vendor/js/esri-leaflet-src.js",
          "vendor/js/rrose-src.js",
