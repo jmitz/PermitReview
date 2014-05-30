@@ -65,8 +65,84 @@ map = L.map('divMap',{
   maxBounds: maxMapBounds
 }).setView([40, -89.5],7).addLayer(featureLayers).addLayer(baseMapOverlay, true);
 
-baseMapOverlay.bringToBack();  
+//baseMapOverlay.bringToBack();
+
 }();
 
+permitData={
+  boa: {
+    name: 'Bureau of Air',
+    abbrev: 'BOA',
+    total: 7810,
+    programs: [
+      {name: 'ROSS',
+       total: 2506,
+       pending: 5
+      },
+      {name: 'USEPA',
+       total: 75,
+       pending: 0
+      },
+      {name: 'Permits',
+       total: 4133,
+       pending: 50
+      },
+      {name: 'Exempt',
+       total: 1096,
+       pending: 21
+      }
+    ]
+  },
+  bol: {
+    name: 'Bureau of Land',
+    abbrev: 'BOL',
+    total: 4133,
+    programs: [
+      {name: 'Permits',
+       total: 4133,
+       pending: 50
+      }
+    ]
+  },
+  bow: {
+    name: 'Bureau of Water',
+    abbrev: 'BOW',
+    total: 5262,
+    programs: [
+      {name: 'NPDES',
+       total: 2303,
+       pending: 53
+      },
+      {name: 'CWS Wells',
+       total: 2959,
+       pending: 75
+      }
+    ]
+}};
 
 
+var stateChart = function(){
+
+  var ctx = $('#stateChart')[0].getContext("2d");
+
+  var data = [
+  {
+    value: 7810,
+    color:"#F38630"
+  },
+  {
+    value : 4133,
+    color : "#E0E4CC"
+  },
+  {
+    value : 5262,
+    color : "#69D2E7"
+  }     
+  ];
+
+  var options = {
+    animation: false
+  };
+  var chart = new Chart(ctx).Pie(data, options);
+  return this;
+}();

@@ -1,0 +1,261 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"feature",
+				"featureLayers"
+			],
+			[
+				"c",
+				"configureCountyFeature"
+			],
+			[
+				"fea",
+				"featureLayers"
+			],
+			[
+				"baseM",
+				"baseMapOverlay"
+			],
+			[
+				"base",
+				"basemapLayer"
+			],
+			[
+				"_w",
+				"_WidgetsInTemplateMixin"
+			],
+			[
+				"_",
+				"_WidgetsInTemplateMixin"
+			],
+			[
+				"Site",
+				"SiteTableName"
+			],
+			[
+				"data",
+				"dataType"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 317.0,
+		"selected_items":
+		[
+			[
+				"i",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"in",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/WebWork/CitizenMap/app/pages/index.us",
+		"/E/WebWork/PermitReview/vendor/css/bootstrap-theme.css",
+		"/E/WebWork/PermitReview/vendor/css/leaflet.css",
+		"/E/WebWork/PermitReview/config/application.js",
+		"/E/WebWork/PermitReview/package.json",
+		"/E/WebWork/PermitReview/vendor/js/chart.js",
+		"/C/Users/jeff.mitzelfelt/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/jeff.mitzelfelt/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/E/WebWork/PermitReview/generated/js/app.js",
+		"/E/WebWork/ConfigurableViewerJSAPI/viewer/js/viewer/Controller.js",
+		"/E/WebWork/ConfigurableViewerJSAPI/viewer/js/gis/dijit/Basemaps.js",
+		"/E/WebWork/ConfigurableViewerJSAPI/viewer/js/gis/dijit/PermitInfo/css/PermitInfo.css",
+		"/E/WebWork/ConfigurableViewerJSAPI/viewer/js/gis/dijit/PermitInfo/templates/permitInfoNode.html",
+		"/E/WebWork/ConfigurableViewerJSAPI/viewer/js/viewer/config.js",
+		"/E/WebWork/ConfigurableViewerJSAPI/viewer/index.html",
+		"/E/WebWork/ConfigurableViewerJSAPI/viewer/js/gis/dijit/TOC/css/TOC.css",
+		"/E/WebWork/ConfViewMap/app/pages/index.us",
+		"/E/WebWork/ConfViewMap/app/js/dojoConfig.js",
+		"/E/WebWork/ConfViewMap/config/files.js",
+		"/E/WebWork/ConfViewMap/package.json",
+		"/E/WebWork/ConfViewMap/node_modules/lineman/node_modules/grunt-contrib-jst/test/expected/pretty_amd.js",
+		"/E/WebWork/CitizenMap/config/application.js",
+		"/E/WebWork/CitizenMap/config/files.js",
+		"/E/WebWork/CitizenMap/generated/css/app.css",
+		"/E/WebWork/CitizenMap/app/css/manifest.less",
+		"/E/WebWork/CitizenMap/app/img/householdhazardpin.png",
+		"/E/WebWork/CitizenMap/vendor/js/leaflet.js",
+		"/E/WebWork/enviJustice/generated/js/spec.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"E:\\WebWork\\ConfigurableViewerJSAPI\\viewer"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"images",
+			"images/",
+			"imagePath",
+			"lang",
+			"aspect",
+			"has",
+			"TOC",
+			"map_layer0_tile_7_1_2",
+			"xmax",
+			"extent.xmax",
+			"totalBOA",
+			"ul",
+			"\"",
+			"actionLayers",
+			"citizenMap",
+			"citizenmap",
+			"citizenMap",
+			"citizenmap",
+			"citizenMap",
+			"citizenmap",
+			"medicalwastepin",
+			"images"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "ConfigurableViewerJSAPI.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 299.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
