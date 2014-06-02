@@ -13,7 +13,7 @@
     <div id='divHeader' class="row">
       <div id='divLogo' class='col-md-2'><img src='img/iepa-logo.png' alt='Illinois EPA Logo'></div>
       <div id='divTitle' class='col-md-3'>
-      <h3>Permit Review Dashboard</h3>
+      <h4>Permit Review Dashboard</h4>
       </div>
     </div>
     <div class="row full-height">
@@ -26,6 +26,12 @@
         <div class='row'>
           <div id='divFeatureInfo' class='col-md-12'>
             This Displays information about the selected feature.
+          </div>
+        </div>
+        <div class='row'>
+          <div id='divSearch' class='col-md-12'>
+            This Displays the Search tools,<br>
+            Alternately, these could be displayed on the right side of the title bar.
           </div>
         </div>
       </div>

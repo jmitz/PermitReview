@@ -1,4 +1,37 @@
 
+function buildCountyChartOptions(countyAttributes){
+  options = {
+    data: [
+    {
+      value: countyAttributes.Total_BOA,
+      color:"#F38630",
+      label: 'BOA',
+      labelColor: '#000',
+      labelFontSize: '.8em'
+    },
+    {
+      value : countyAttributes.Total_BOW,
+      color : "#E0E4CC",
+      label: 'BOW',
+      labelColor: '#000',
+      labelFontSize: '.8em'
+    }
+    ]
+  };
+  return options;
+}
+
+function dispChart(divName,options){
+  divString = '#' + divName;
+  var ctx = $(divString)[0].getContext("2d");
+  var data = options.data;
+  var chartOptions = {
+    animation: false
+  };
+  var chart = new Chart(ctx).Pie(data, chartOptions);
+  return this;
+}
+
 var permitMap = function(){
   var maxMapBounds = L.latLngBounds(L.latLng(36.9, -91.6),L.latLng(42.6, -87.4));
 
@@ -28,7 +61,6 @@ var permitMap = function(){
   }
 
   function configureCountyFeature(feature, layer) {
-    layer.bindPopup('<h3>'+feature.properties.NAME_LC+'</h3>');
     layer.on('mouseover mousemove', function(e){
       var hover_bubble = new L.Rrose({
         offset: new L.Point(0,-10),
@@ -40,6 +72,14 @@ var permitMap = function(){
     });
     layer.on('mouseout', function(e){
       map.closePopup();
+    });
+    layer.on('click', function(e){
+      var html = '<h4>{{CountyName}} County</h4><p><canvas id="localChart" class="pieChart"></canvas></p><span id="localTable"></span>';
+      $('#divFeatureInfo').html('<h4>'+feature.properties.NAME_LC+' County</h4><p><canvas id="localChart" class="pieChart"></canvas></p><span id="localTable"></span>');
+      dispChart("localChart",buildCountyChartOptions(feature.properties));
+       // Put together an UL with the Total Permits for the County and the Total for each of the bureaus.
+
+console.log(feature.properties);
     });
       // layer.on('mousedown', function(e){
       //   //layer.off('mouseover mousemove');
@@ -63,7 +103,7 @@ map = L.map('divMap',{
   minZoom: 6,
   layers: [baseMap],
   maxBounds: maxMapBounds
-}).setView([40, -89.5],7).addLayer(featureLayers).addLayer(baseMapOverlay, true);
+}).setView([40, -89.5],7).addLayer(featureLayers, true);
 
 //baseMapOverlay.bringToBack();
 
@@ -75,74 +115,77 @@ permitData={
     abbrev: 'BOA',
     total: 7810,
     programs: [
-      {name: 'ROSS',
-       total: 2506,
-       pending: 5
-      },
-      {name: 'USEPA',
-       total: 75,
-       pending: 0
-      },
-      {name: 'Permits',
-       total: 4133,
-       pending: 50
-      },
-      {name: 'Exempt',
-       total: 1096,
-       pending: 21
-      }
-    ]
+    {name: 'ROSS',
+    total: 2506,
+    pending: 5
   },
-  bol: {
-    name: 'Bureau of Land',
-    abbrev: 'BOL',
-    total: 4133,
-    programs: [
-      {name: 'Permits',
-       total: 4133,
-       pending: 50
-      }
-    ]
-  },
-  bow: {
-    name: 'Bureau of Water',
-    abbrev: 'BOW',
-    total: 5262,
-    programs: [
-      {name: 'NPDES',
-       total: 2303,
-       pending: 53
-      },
-      {name: 'CWS Wells',
-       total: 2959,
-       pending: 75
-      }
-    ]
+  {name: 'USEPA',
+  total: 75,
+  pending: 0
+},
+{name: 'Permits',
+total: 4133,
+pending: 50
+},
+{name: 'Exempt',
+total: 1096,
+pending: 21
+}
+]
+},
+bol: {
+  name: 'Bureau of Land',
+  abbrev: 'BOL',
+  total: 4133,
+  programs: [
+  {name: 'Permits',
+  total: 4133,
+  pending: 50
+}
+]
+},
+bow: {
+  name: 'Bureau of Water',
+  abbrev: 'BOW',
+  total: 5262,
+  programs: [
+  {name: 'NPDES',
+  total: 2303,
+  pending: 53
+},
+{name: 'CWS Wells',
+total: 2959,
+pending: 75
+}
+]
 }};
 
 
-var stateChart = function(){
-
-  var ctx = $('#stateChart')[0].getContext("2d");
-
-  var data = [
+var stateChartOptions = {
+  data: [
   {
     value: 7810,
-    color:"#F38630"
+    color:"#F38630",
+    label: 'BOA',
+    labelColor: '#000',
+    labelFontSize: '.8em'
   },
   {
     value : 4133,
-    color : "#E0E4CC"
+    color : "#E0E4CC",
+    label: 'BOW',
+    labelColor: '#000',
+    labelFontSize: '.8em'
   },
   {
     value : 5262,
-    color : "#69D2E7"
-  }     
-  ];
+    color : "#69D2E7",
+    label: 'BOL',
+    labelColor: '#000',
+    labelFontSize: '.8em'
+  }
+  ]
+};
 
-  var options = {
-    animation: false
-  };
-  var chart = new Chart(ctx).Pie(data, options);
-  return this;
-}();
+
+dispChart('stateChart', stateChartOptions);
