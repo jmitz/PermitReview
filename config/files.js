@@ -17,7 +17,9 @@ module.exports = function(lineman) {
          "vendor/js/jquery.js",
          "vendor/js/bootstrap.js",
          "vendor/js/leaflet-src.js",
+         "vendor/js/leaflet.markercluster-src.js",
          "vendor/js/esri-leaflet-src.js",
+         "vendor/js/cluster-feature-layer.js",
          "vendor/js/rrose-src.js",
          "vendor/js/chart.min.js",
          "vendor/js/**/*.js"

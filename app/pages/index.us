@@ -25,7 +25,6 @@
         </div>
         <div class='row'>
           <div id='divFeatureInfo' class='col-md-12'>
-            This Displays information about the selected feature.
           </div>
         </div>
         <div class='row'>
