@@ -1,11 +1,12 @@
 {
-  "name": "-permit-review",
-  "description": "An HTML/JS/CSS app",
+  "name": "bootleaf-lineman",
+  "description": "Illinois EPA Permit Review Dashboard",
   "version": "0.0.1",
   "private": true,
-  "author": "John Doe",
+  "author": "Jeff Mitzelfelt",
   "devDependencies": {
-    "lineman": "~0.32.1"
+    "lineman": "~0.32.2",
+    "lineman-less": "0.0.1"
   },
   "scripts": {
     "start": "lineman run",

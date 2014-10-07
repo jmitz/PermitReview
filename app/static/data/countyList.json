@@ -1,0 +1,1022 @@
+{
+  "1": {
+    "name": "Adams",
+    "offices": {
+      "boa": 10,
+      "bol": 10,
+      "dwpc": 10,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "3": {
+    "name": "Alexander",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "5": {
+    "name": "Bond",
+    "offices": {
+      "boa": 2,
+      "bol": 2,
+      "dwpc": 2,
+      "dpws": 2
+    },
+    "permits": {}
+  },
+  "7": {
+    "name": "Boone",
+    "offices": {
+      "boa": 9,
+      "bol": 9,
+      "dwpc": 9,
+      "dpws": 9
+    },
+    "permits": {}
+  },
+  "9": {
+    "name": "Brown",
+    "offices": {
+      "boa": 10,
+      "bol": 10,
+      "dwpc": 10,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "11": {
+    "name": "Bureau",
+    "offices": {
+      "boa": 7,
+      "bol": 9,
+      "dwpc": 9,
+      "dpws": 9
+    },
+    "permits": {}
+  },
+  "13": {
+    "name": "Calhoun",
+    "offices": {
+      "boa": 10,
+      "bol": 10,
+      "dwpc": 10,
+      "dpws": 2
+    },
+    "permits": {}
+  },
+  "15": {
+    "name": "Carroll",
+    "offices": {
+      "boa": 7,
+      "bol": 9,
+      "dwpc": 9,
+      "dpws": 9
+    },
+    "permits": {}
+  },
+  "17": {
+    "name": "Cass",
+    "offices": {
+      "boa": 10,
+      "bol": 10,
+      "dwpc": 10,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "19": {
+    "name": "Champaign",
+    "offices": {
+      "boa": 1,
+      "bol": 1,
+      "dwpc": 1,
+      "dpws": 1
+    },
+    "permits": {}
+  },
+  "21": {
+    "name": "Christian",
+    "offices": {
+      "boa": 10,
+      "bol": 10,
+      "dwpc": 10,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "23": {
+    "name": "Clark",
+    "offices": {
+      "boa": 6,
+      "bol": 1,
+      "dwpc": 1,
+      "dpws": 1
+    },
+    "permits": {}
+  },
+  "25": {
+    "name": "Clay",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "27": {
+    "name": "Clinton",
+    "offices": {
+      "boa": 2,
+      "bol": 2,
+      "dwpc": 2,
+      "dpws": 2
+    },
+    "permits": {}
+  },
+  "29": {
+    "name": "Coles",
+    "offices": {
+      "boa": 1,
+      "bol": 1,
+      "dwpc": 1,
+      "dpws": 1
+    },
+    "permits": {}
+  },
+  "31": {
+    "name": "Cook",
+    "offices": {
+      "boa": 3,
+      "bol": 3,
+      "dwpc": 3,
+      "dpws": 4
+    },
+    "permits": {}
+  },
+  "33": {
+    "name": "Crawford",
+    "offices": {
+      "boa": 6,
+      "bol": 1,
+      "dwpc": 1,
+      "dpws": 1
+    },
+    "permits": {}
+  },
+  "35": {
+    "name": "Cumberland",
+    "offices": {
+      "boa": 6,
+      "bol": 1,
+      "dwpc": 1,
+      "dpws": 1
+    },
+    "permits": {}
+  },
+  "37": {
+    "name": "DeKalb",
+    "offices": {
+      "boa": 9,
+      "bol": 9,
+      "dwpc": 9,
+      "dpws": 9
+    },
+    "permits": {}
+  },
+  "39": {
+    "name": "DeWitt",
+    "offices": {
+      "boa": 1,
+      "bol": 1,
+      "dwpc": 1,
+      "dpws": 1
+    },
+    "permits": {}
+  },
+  "41": {
+    "name": "Douglas",
+    "offices": {
+      "boa": 1,
+      "bol": 1,
+      "dwpc": 1,
+      "dpws": 1
+    },
+    "permits": {}
+  },
+  "43": {
+    "name": "DuPage",
+    "offices": {
+      "boa": 3,
+      "bol": 3,
+      "dwpc": 3,
+      "dpws": 4
+    },
+    "permits": {}
+  },
+  "45": {
+    "name": "Edgar",
+    "offices": {
+      "boa": 1,
+      "bol": 1,
+      "dwpc": 1,
+      "dpws": 1
+    },
+    "permits": {}
+  },
+  "47": {
+    "name": "Edwards",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "49": {
+    "name": "Effingham",
+    "offices": {
+      "boa": 2,
+      "bol": 1,
+      "dwpc": 1,
+      "dpws": 1
+    },
+    "permits": {}
+  },
+  "51": {
+    "name": "Fayette",
+    "offices": {
+      "boa": 2,
+      "bol": 2,
+      "dwpc": 2,
+      "dpws": 2
+    },
+    "permits": {}
+  },
+  "53": {
+    "name": "Ford",
+    "offices": {
+      "boa": 1,
+      "bol": 1,
+      "dwpc": 1,
+      "dpws": 1
+    },
+    "permits": {}
+  },
+  "55": {
+    "name": "Franklin",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "57": {
+    "name": "Fulton",
+    "offices": {
+      "boa": 8,
+      "bol": 8,
+      "dwpc": 8,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "59": {
+    "name": "Gallatin",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "61": {
+    "name": "Greene",
+    "offices": {
+      "boa": 10,
+      "bol": 10,
+      "dwpc": 10,
+      "dpws": 2
+    },
+    "permits": {}
+  },
+  "63": {
+    "name": "Grundy",
+    "offices": {
+      "boa": 3,
+      "bol": 3,
+      "dwpc": 3,
+      "dpws": 4
+    },
+    "permits": {}
+  },
+  "65": {
+    "name": "Hamilton",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "67": {
+    "name": "Hancock",
+    "offices": {
+      "boa": 8,
+      "bol": 8,
+      "dwpc": 8,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "69": {
+    "name": "Hardin",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "71": {
+    "name": "Henderson",
+    "offices": {
+      "boa": 8,
+      "bol": 8,
+      "dwpc": 8,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "73": {
+    "name": "Henry",
+    "offices": {
+      "boa": 7,
+      "bol": 8,
+      "dwpc": 8,
+      "dpws": 9
+    },
+    "permits": {}
+  },
+  "75": {
+    "name": "Iroquois",
+    "offices": {
+      "boa": 1,
+      "bol": 1,
+      "dwpc": 1,
+      "dpws": 1
+    },
+    "permits": {}
+  },
+  "77": {
+    "name": "Jackson",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "79": {
+    "name": "Jasper",
+    "offices": {
+      "boa": 6,
+      "bol": 1,
+      "dwpc": 1,
+      "dpws": 1
+    },
+    "permits": {}
+  },
+  "81": {
+    "name": "Jefferson",
+    "offices": {
+      "boa": 2,
+      "bol": 1,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "83": {
+    "name": "Jersey",
+    "offices": {
+      "boa": 10,
+      "bol": 10,
+      "dwpc": 10,
+      "dpws": 2
+    },
+    "permits": {}
+  },
+  "85": {
+    "name": "Jo Daviess",
+    "offices": {
+      "boa": 7,
+      "bol": 9,
+      "dwpc": 9,
+      "dpws": 9
+    },
+    "permits": {}
+  },
+  "87": {
+    "name": "Johnson",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "89": {
+    "name": "Kane",
+    "offices": {
+      "boa": 3,
+      "bol": 3,
+      "dwpc": 3,
+      "dpws": 4
+    },
+    "permits": {}
+  },
+  "91": {
+    "name": "Kankakee",
+    "offices": {
+      "boa": 3,
+      "bol": 3,
+      "dwpc": 3,
+      "dpws": 4
+    },
+    "permits": {}
+  },
+  "93": {
+    "name": "Kendall",
+    "offices": {
+      "boa": 3,
+      "bol": 3,
+      "dwpc": 3,
+      "dpws": 4
+    },
+    "permits": {}
+  },
+  "95": {
+    "name": "Knox",
+    "offices": {
+      "boa": 8,
+      "bol": 8,
+      "dwpc": 8,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "97": {
+    "name": "Lake",
+    "offices": {
+      "boa": 3,
+      "bol": 3,
+      "dwpc": 3,
+      "dpws": 4
+    },
+    "permits": {}
+  },
+  "99": {
+    "name": "LaSalle",
+    "offices": {
+      "boa": 9,
+      "bol": 9,
+      "dwpc": 9,
+      "dpws": 9
+    },
+    "permits": {}
+  },
+  "101": {
+    "name": "Lawrence",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "103": {
+    "name": "Lee",
+    "offices": {
+      "boa": 7,
+      "bol": 9,
+      "dwpc": 9,
+      "dpws": 9
+    },
+    "permits": {}
+  },
+  "105": {
+    "name": "Livingston",
+    "offices": {
+      "boa": 1,
+      "bol": 1,
+      "dwpc": 1,
+      "dpws": 1
+    },
+    "permits": {}
+  },
+  "107": {
+    "name": "Logan",
+    "offices": {
+      "boa": 8,
+      "bol": 10,
+      "dwpc": 10,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "109": {
+    "name": "McDonough",
+    "offices": {
+      "boa": 8,
+      "bol": 8,
+      "dwpc": 8,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "111": {
+    "name": "McHenry",
+    "offices": {
+      "boa": 3,
+      "bol": 3,
+      "dwpc": 3,
+      "dpws": 4
+    },
+    "permits": {}
+  },
+  "113": {
+    "name": "McLean",
+    "offices": {
+      "boa": 1,
+      "bol": 1,
+      "dwpc": 1,
+      "dpws": 1
+    },
+    "permits": {}
+  },
+  "115": {
+    "name": "Macon",
+    "offices": {
+      "boa": 1,
+      "bol": 1,
+      "dwpc": 1,
+      "dpws": 1
+    },
+    "permits": {}
+  },
+  "117": {
+    "name": "Macoupin",
+    "offices": {
+      "boa": 10,
+      "bol": 10,
+      "dwpc": 10,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "119": {
+    "name": "Madison",
+    "offices": {
+      "boa": 2,
+      "bol": 2,
+      "dwpc": 2,
+      "dpws": 2
+    },
+    "permits": {}
+  },
+  "121": {
+    "name": "Marion",
+    "offices": {
+      "boa": 2,
+      "bol": 2,
+      "dwpc": 2,
+      "dpws": 2
+    },
+    "permits": {}
+  },
+  "123": {
+    "name": "Marshall",
+    "offices": {
+      "boa": 8,
+      "bol": 8,
+      "dwpc": 8,
+      "dpws": 9
+    },
+    "permits": {}
+  },
+  "125": {
+    "name": "Mason",
+    "offices": {
+      "boa": 8,
+      "bol": 10,
+      "dwpc": 10,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "127": {
+    "name": "Massac",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "129": {
+    "name": "Menard",
+    "offices": {
+      "boa": 10,
+      "bol": 10,
+      "dwpc": 10,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "131": {
+    "name": "Mercer",
+    "offices": {
+      "boa": 7,
+      "bol": 8,
+      "dwpc": 8,
+      "dpws": 9
+    },
+    "permits": {}
+  },
+  "133": {
+    "name": "Monroe",
+    "offices": {
+      "boa": 2,
+      "bol": 2,
+      "dwpc": 2,
+      "dpws": 2
+    },
+    "permits": {}
+  },
+  "135": {
+    "name": "Montgomery",
+    "offices": {
+      "boa": 10,
+      "bol": 10,
+      "dwpc": 10,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "137": {
+    "name": "Morgan",
+    "offices": {
+      "boa": 10,
+      "bol": 10,
+      "dwpc": 10,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "139": {
+    "name": "Moultrie",
+    "offices": {
+      "boa": 1,
+      "bol": 1,
+      "dwpc": 1,
+      "dpws": 1
+    },
+    "permits": {}
+  },
+  "141": {
+    "name": "Ogle",
+    "offices": {
+      "boa": 7,
+      "bol": 9,
+      "dwpc": 9,
+      "dpws": 9
+    },
+    "permits": {}
+  },
+  "143": {
+    "name": "Peoria",
+    "offices": {
+      "boa": 8,
+      "bol": 8,
+      "dwpc": 8,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "145": {
+    "name": "Perry",
+    "offices": {
+      "boa": 2,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "147": {
+    "name": "Piatt",
+    "offices": {
+      "boa": 1,
+      "bol": 1,
+      "dwpc": 1,
+      "dpws": 1
+    },
+    "permits": {}
+  },
+  "149": {
+    "name": "Pike",
+    "offices": {
+      "boa": 10,
+      "bol": 10,
+      "dwpc": 10,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "151": {
+    "name": "Pope",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "153": {
+    "name": "Pulaski",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "155": {
+    "name": "Putnam",
+    "offices": {
+      "boa": 9,
+      "bol": 9,
+      "dwpc": 9,
+      "dpws": 9
+    },
+    "permits": {}
+  },
+  "157": {
+    "name": "Randolph",
+    "offices": {
+      "boa": 2,
+      "bol": 2,
+      "dwpc": 2,
+      "dpws": 2
+    },
+    "permits": {}
+  },
+  "159": {
+    "name": "Richland",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "161": {
+    "name": "Rock Island",
+    "offices": {
+      "boa": 7,
+      "bol": 8,
+      "dwpc": 8,
+      "dpws": 9
+    },
+    "permits": {}
+  },
+  "163": {
+    "name": "Saint Clair",
+    "offices": {
+      "boa": 2,
+      "bol": 2,
+      "dwpc": 2,
+      "dpws": 2
+    },
+    "permits": {}
+  },
+  "165": {
+    "name": "Saline",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "167": {
+    "name": "Sangamon",
+    "offices": {
+      "boa": 10,
+      "bol": 10,
+      "dwpc": 10,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "169": {
+    "name": "Schuyler",
+    "offices": {
+      "boa": 10,
+      "bol": 10,
+      "dwpc": 10,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "171": {
+    "name": "Scott",
+    "offices": {
+      "boa": 10,
+      "bol": 10,
+      "dwpc": 10,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "173": {
+    "name": "Shelby",
+    "offices": {
+      "boa": 1,
+      "bol": 1,
+      "dwpc": 1,
+      "dpws": 1
+    },
+    "permits": {}
+  },
+  "175": {
+    "name": "Stark",
+    "offices": {
+      "boa": 8,
+      "bol": 8,
+      "dwpc": 8,
+      "dpws": 9
+    },
+    "permits": {}
+  },
+  "177": {
+    "name": "Stephenson",
+    "offices": {
+      "boa": 9,
+      "bol": 9,
+      "dwpc": 9,
+      "dpws": 9
+    },
+    "permits": {}
+  },
+  "179": {
+    "name": "Tazewell",
+    "offices": {
+      "boa": 8,
+      "bol": 8,
+      "dwpc": 8,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "181": {
+    "name": "Union",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "183": {
+    "name": "Vermilion",
+    "offices": {
+      "boa": 1,
+      "bol": 1,
+      "dwpc": 1,
+      "dpws": 1
+    },
+    "permits": {}
+  },
+  "185": {
+    "name": "Wabash",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "187": {
+    "name": "Warren",
+    "offices": {
+      "boa": 8,
+      "bol": 8,
+      "dwpc": 8,
+      "dpws": 10
+    },
+    "permits": {}
+  },
+  "189": {
+    "name": "Washington",
+    "offices": {
+      "boa": 2,
+      "bol": 2,
+      "dwpc": 2,
+      "dpws": 2
+    },
+    "permits": {}
+  },
+  "191": {
+    "name": "Wayne",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "193": {
+    "name": "White",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "195": {
+    "name": "Whiteside",
+    "offices": {
+      "boa": 7,
+      "bol": 9,
+      "dwpc": 9,
+      "dpws": 9
+    },
+    "permits": {}
+  },
+  "197": {
+    "name": "Will",
+    "offices": {
+      "boa": 3,
+      "bol": 3,
+      "dwpc": 3,
+      "dpws": 4
+    },
+    "permits": {}
+  },
+  "199": {
+    "name": "Williamson",
+    "offices": {
+      "boa": 6,
+      "bol": 6,
+      "dwpc": 6,
+      "dpws": 6
+    },
+    "permits": {}
+  },
+  "201": {
+    "name": "Winnebago",
+    "offices": {
+      "boa": 9,
+      "bol": 9,
+      "dwpc": 9,
+      "dpws": 9
+    },
+    "permits": {}
+  },
+  "203": {
+    "name": "Woodford",
+    "offices": {
+      "boa": 8,
+      "bol": 8,
+      "dwpc": 8,
+      "dpws": 9
+    },
+    "permits": {}
+  }
+}
