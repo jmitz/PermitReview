@@ -128,9 +128,13 @@
                           <li>Sidebar can be closed by clicking on the x in it’s upper right corner or clicking on the sidebar link.</li>
                         </ul>
                       </li>
-                      <li class="list-group-item">Move mouse over counties to see a pop up showing county name and number of permits in county.</li>
-                      <li class="list-group-item">Click on county to show a chart of the county’s permits in the sidebar</li>
-                      <li class="list-group-item">Double click on a county to zoom to the county and update the county’s permit chart</li>
+                      <li class="list-group-item">When the County Permit Counts are selected from the Reference Layers...
+                        <ul>
+                          <li>Moving the mouse cursor over the map will display a pop up showing county name and number of permits. (Statewide numbers are shown unless specific permit types are selected.)</li>
+                          <li>Click on county to show a chart of the county’s permits in the sidebar. Permit numbers will reflect selected permit types. If no permit types are selected all permit types are displayed.</li>
+                          <li>Double click on a county to zoom to the county</li>
+                        </ul>
+                      </li>
                       <li class="list-group-item">Zoom in to see permit locations
                         <ul>
                           <li>Click or tap the "+" or "-" in the upper left corner of the map.</li>
@@ -146,24 +150,24 @@
                       </li>
                       <li class="list-group-item">Hovering over a pin will show a tooltip of the site name. This tooltip can contain anything we would like.</li>
                       <li class="list-group-item">Clicking on a pin will show a larger pop up with more information. This pop up can contain anything we would like. The pop up provides for a bit more interactivity that could include links or charts or other items.</li>
+                      <li class="list-group-item">The measuring tool "&#8627;" allows distances to be measured on the map. To use:
+                        <ul>
+                          <li>Turn on tool by clicking on "&#8627;" (Cursor should change to a cross-hair)</li>
+                          <li>Click on starting point to begin measuring. A dot should appear at the starting point and a dashed line will extend from the starting point to the mouse pointer. A box indicating the distance in miles will appear with the mouse pointer</li>
+                          <li>Click on any intermediate points. A box will appear at the intermediate point showing the total distance and the distance from the last point in miles.</li>
+                          <li>Double click to finish measurement.</li>
+                          <li>Turn tool off by clicking on "&#8627;". All measurements will be removed from map.</li>
+                        </ul>
+                      </li>
                     </ul>
                   </div>
                 </div>
                 <div id="disclaimer" class="tab-pane fade text-danger">
-                  <p>This tool is currently displaying data that are available in the ACES database. Data available to categorize permits types as well as locations are limited. This does not represent all the Agency's permits or permit interest locations. This is a demonstration of the tool only.</p>
+                  <p>This tool is displaying data that are available from the ICE-MAN (BOA) and Athena (BOL & BOW) databases. Data available to categorize permits types as well as locations are limited. Not all the Agency's permits or permit interest locations are represented. This is a demonstration of the tool only.</p>
                   <p>Absolutely no accuracy or completeness guarantee is implied or intended. All information on this map is subject to such variations and corrections.</p>
-                </div>
-                <div class="tab-pane fade" id="boroughs-tab">
-                  <p>Borough data courtesy of <a href="http://www.nyc.gov/html/dcp/html/bytes/meta_dis_nyboroughwi.shtml" target="_blank">New York City Department of City Planning</a></p>
-                </div>
-                <div class="tab-pane fade" id="subway-lines-tab">
-                  <p><a href="http://spatialityblog.com/2010/07/08/mta-gis-data-update/#datalinks" target="_blank">MTA Subway data</a> courtesy of the <a href="http://www.urbanresearch.org/about/cur-components/cuny-mapping-service" target="_blank">CUNY Mapping Service at the Center for Urban Research</a></p>
                 </div>
                 <div class="tab-pane fade" id="counties-tab">
                   <p>County data courtesy of Illinois State Geological Survey.</p>
-                </div>
-                <div class="tab-pane fade" id="museums-tab">
-                  <p>Museum data courtesy of <a href="https://data.cityofnewyork.us/Recreation/Museums-and-Galleries/sat5-adpb" target="_blank">NYC Department of Information & Telecommunications (DoITT)</a></p>
                 </div>
               </div>
             </div>
@@ -193,22 +197,6 @@
               <h4 class="modal-title text-primary" id="feature-title"></h4>
             </div>
             <div class="modal-body" id="feature-info"></div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-      </div><!-- /.modal -->
-
-      <div class="modal fade" id="attributionModal" tabindex="-1" role="dialog">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
-              <h4 class="modal-title">
-                Developed by <a href='http://bryanmcbride.com'>bryanmcbride.com</a>
-              </h4>
-            </div>
-            <div class="modal-body">
-              <div id="attribution"></div>
-            </div>
           </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
       </div><!-- /.modal -->
